@@ -7,4 +7,5 @@ through multiple generations using regular updates, where cells die or live
 depending on their surroundings.
 
 A screenshot of the game:
+
 ![cellegae](https://user-images.githubusercontent.com/20997734/77190167-0efb0200-6ad9-11ea-83c5-0d52cc9e20ab.png)
