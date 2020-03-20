@@ -9,3 +9,13 @@ depending on their surroundings.
 A screenshot of the game:
 
 ![cellegae](https://user-images.githubusercontent.com/20997734/77190167-0efb0200-6ad9-11ea-83c5-0d52cc9e20ab.png)
+
+
+The new status of a cell is determined by the following rules:
+  ● If the cell's current status is "live":
+    ○ In fewer than two living neighboring cells, the cell dies (subpopulation).
+    ○ With two or three living neighbor cells, the cell will live on.
+    ○ If the cell has more than three living neighboring cells, it will die (overpopulation)
+  ● If the cell is "dead":
+    ○ The cell's status becomes "alive" (reproduction) if it has exactly three
+    living neighbors.
