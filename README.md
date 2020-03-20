@@ -12,14 +12,16 @@ A screenshot of the game:
 
 
 The new status of a cell is determined by the following rules:
+
   If the cell's current status is "alive":
-  <li>
-    ○ In fewer than two living neighboring cells, the cell dies (subpopulation).
-    ○ With two or three living neighbor cells, the cell will live on.
-    ○ If the cell has more than three living neighboring cells, it will die (overpopulation)
-  </li>
+  
+    In fewer than two living neighboring cells, the cell dies (subpopulation).
+    
+    With two or three living neighbor cells, the cell will live on.
+    
+    If the cell has more than three living neighboring cells, it will die (overpopulation)
+    
   If the cell is "dead":
-  <li>
+
     The cell's status becomes "alive" (reproduction) if it has exactly three
     living neighbors.
-  </li>
